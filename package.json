@@ -11,7 +11,8 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "pnpm run build && changeset publish"
   },
   "keywords": [],
   "author": "",
