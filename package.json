@@ -14,7 +14,10 @@
     "lint": "tsc",
     "release": "pnpm run build && changeset publish"
   },
-  "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["react", "client", "environment variable"],
   "author": "",
   "license": "MIT",
   "devDependencies": {
