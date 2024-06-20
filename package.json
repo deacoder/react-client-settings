@@ -24,7 +24,11 @@
   "keywords": [
     "react",
     "client",
-    "environment variable"
+    "environment variables",
+    "process.env",
+    "configuration",
+    "settings",
+    "env"
   ],
   "author": "",
   "license": "MIT",
