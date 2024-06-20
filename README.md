@@ -1,6 +1,6 @@
 # react-client-settings
 
-`react-client-settings` is a zero dependency library for React applications that provides a context provider and a hook to manage global application settings (variables) in the client.
+`react-client-settings` is a zero dependency library for React applications that provides a context provider and a hook to manage global application settings (variables) in the client. Common scenario is to expose environment variables in the backend to the client.
 The library retrieves the settings from any configurable backend and stores the result in a React context. The provided hook can then be used to access these settings throughout your application.
 
 ## Features
