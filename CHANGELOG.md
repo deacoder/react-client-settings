@@ -1,5 +1,11 @@
 # react-client-settings
 
+## 1.0.1
+
+### Patch Changes
+
+- c1acf92: update repository url
+
 ## 1.0.0
 
 ### Major Changes
