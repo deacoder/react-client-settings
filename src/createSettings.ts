@@ -10,7 +10,7 @@ export default function createSettings<T>(config: SettingsContextConfig) {
   const SettingsContext = createContext<T | undefined>(undefined);
 
   return {
-    Provider: createSettingsProvider(
+    SettingsProvider: createSettingsProvider(
       SettingsContext,
       new SettingsClient<T>(config),
     ),
