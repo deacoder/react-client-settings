@@ -1,6 +1,6 @@
 {
   "name": "react-client-settings",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -17,7 +17,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": ["react", "client", "environment variable"],
+  "keywords": [
+    "react",
+    "client",
+    "environment variable"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
