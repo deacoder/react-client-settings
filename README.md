@@ -53,6 +53,13 @@ export const { SettingsProvider, useSettings } = createSettings<SettingsData>({
 
 Wrap your application with the `Settings Provider` to make the settings available throughout your component tree.
 
+Parameters to `Settings Provider`:
+
+| Name     | Description                                      | Mandatory |
+|:---------|:-------------------------------------------------|-----------|
+| loading  | Component to render when settings are loaded     | No        |
+| error    | Component to render when fetch of settings fails | No        |
+
 ```Typescript
 import { SettingsProvider } from './my-settings';
 
