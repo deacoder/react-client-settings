@@ -1,5 +1,12 @@
 # react-client-settings
 
+## 1.0.2
+
+### Patch Changes
+
+- 6e46895: update development dependencies
+- 17674c7: typescript 5.5
+
 ## 1.0.1
 
 ### Patch Changes
