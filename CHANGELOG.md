@@ -1,5 +1,11 @@
 # react-client-settings
 
+## 1.1.0
+
+### Minor Changes
+
+- af6a938: add error and loading state render
+
 ## 1.0.2
 
 ### Patch Changes
