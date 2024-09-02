@@ -2,6 +2,7 @@
   "name": "react-client-settings",
   "version": "1.0.2",
   "description": "",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -12,7 +13,8 @@
     "clean": "rimraf dist",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "release": "pnpm run build && changeset publish"
+    "release": "pnpm run build && changeset publish",
+    "test": "vitest run"
   },
   "publishConfig": {
     "access": "public"
@@ -34,13 +36,18 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.0.1",
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/react": "^18.3.5",
+    "jsdom": "^25.0.0",
+    "msw": "^2.4.1",
     "prettier": "^3.3.3",
     "react": "^18.3.1",
     "rimraf": "^6.0.1",
     "tsup": "^8.2.4",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
   },
   "peerDependencies": {
     "react": ">=16.8.0"

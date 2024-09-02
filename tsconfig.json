@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "react",
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
@@ -15,7 +15,9 @@
     "outDir": "dist",
     "sourceMap": true,
     "declaration": true,
-    "lib": ["es2022", "dom", "dom.iterable"]
+    "lib": ["es2022", "dom", "dom.iterable"],
+    "moduleResolution": "Bundler",
+    "types": ["vitest/globals"]
   },
   "include": ["src/**/*"]
 }
